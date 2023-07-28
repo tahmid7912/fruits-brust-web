@@ -39,7 +39,43 @@
 </head>
 <body class="bg-white">
   <header>
-    <nav> </nav>
+     <!-- nav bar -->
+     <nav class="navigation text-center  text-white items-center align-center p-4">
+ 
+      <div class="flex justify-start gap-4 text-center -mb-12">
+        <div><a href="">HOME</a></div>
+        <div><a href="">ABOUT US</a></div>
+        <div><a href="">SHOP</a></div>
+        <div><a href="">ALL Fruits</a></div>
+      </div>
+          <div class="navbar 
+          rounded-full  w-full
+           bg-red-400
+          max-w-screen-xl">
+        <div class=" flex-1 justify-center ">  <img class="w-auto px-10 ml-96
+          " src="./images/logo.png" alt=""></div>
+  
+              <div class="flex-1 justify-center">
+                <a class=" normal-case text-right bg-red-500 text-white text-xl -ml-96 lg:-ml-96">Fruits Burst </a>
+              </div>
+              
+              <div class="flex gap-2">
+                <div class="form-control">
+                  <input type="text" placeholder="Search" class="input text-white input-border bg-white rounded-full  w-24 md:w-auto" />
+                </div>
+                <div class="dropdown dropdown-end">
+                  <label tabindex="0" class="btn btn-ghost btn-circle avatar">
+                    <!-- <div class="w-10 rounded-full">
+                      <img src="/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                   -->
+                  </label>
+                 
+                </div>
+              </div>
+            </div>
+  
+      </nav>
+  
 
     <section class=" bg-white  text-gray-900 ">
       
@@ -50,17 +86,7 @@
 
         
         <div class="hero min-h-screen lg:min-h-screen md:min-h-screen bg-auto bg-no-repeat bg-center gap-20 justify-center iteams-center" style="background-image: url('./images/banner1.png'),linear-gradient(180deg,#121212 0%,rgba(18,18,18,0.00)0%);">
-          
-                 <div class=" flex grid-rows-6 grid-col-6 m-20 p-20 ">
-                  <span class=" bg-gradient-to-r from-indigo-600 to-pink-500 text-white row-span-5
-                   col-span-1     m-10        ">
-                    Hello<br />
-                    World
-                  </span>
-                 </div>
-                                              
-        
-
+                              
           <div class="hero-overlay bg-opacity-5"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-auto">
@@ -444,6 +470,23 @@
   </section>
  
   </main>
+  <footer class="footer footer-center p-10 bg-base-200 text-base-content rounded">
+    <div class="grid grid-flow-col gap-4">
+      <a class="link link-hover">About us</a> 
+      <a class="link link-hover">Contact</a> 
+      <a class="link link-hover">Jobs</a> 
+      <a class="link link-hover">Press kit</a>
+    </div> 
+    <div>
+      <div class="grid grid-flow-col gap-4">
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg></a> 
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></a> 
+        <a><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" class="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></a>
+      </div>
+    </div> 
+    <div>
+    </div>
+  </footer>
   
 </body>
 </html>
