@@ -1,11 +1,11 @@
 <script>
-tailwind.config = {
-  theme: {
-    extend: {
-      colors: {
-        clifford: '#FFF',
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
       }
     }
-  }
-}
-</script>
+  </script>
