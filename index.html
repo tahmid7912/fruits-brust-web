@@ -37,16 +37,30 @@
   </style>
 
 </head>
-<body>
+<body class="bg-white">
   <header>
     <nav> </nav>
 
     <section class=" bg-white ">
       
     <div class="carousel  w-full  border-4 bg-white  rounded-s-lg">
+    
+
       <div id="slide1" class="carousel-item relative p-30  w-full   ">
+
         
-        <div class="hero min-h-screen lg:min-h-screen md:min-h-screen bg-auto bg-no-repeat bg-center justify-center iteams-center" style="background-image: url('./images/banner1.png'),linear-gradient(180deg,#121212 0%,rgba(18,18,18,0.00)0%);">
+        <div class="hero min-h-screen lg:min-h-screen md:min-h-screen bg-auto bg-no-repeat bg-center gap-20 justify-center iteams-center" style="background-image: url('./images/banner1.png'),linear-gradient(180deg,#121212 0%,rgba(18,18,18,0.00)0%);">
+          
+                 <div class=" flex grid-rows-6 grid-col-6 m-20 p-20 ">
+                  <span class=" bg-gradient-to-r from-indigo-600 to-pink-500 text-white row-span-5
+                   col-span-1     m-10        ">
+                    Hello<br />
+                    World
+                  </span>
+                 </div>
+                                              
+        
+
           <div class="hero-overlay bg-opacity-5"></div>
           <div class="hero-content text-center text-neutral-content">
             <div class="max-w-auto">
@@ -62,6 +76,7 @@
               
             </div>
           </div>
+
           
         </div>      
         </div>
@@ -122,15 +137,63 @@
                 <a href="#slide3" class="btn btn-circle">❮</a> 
                 <a href="#slide1" class="btn btn-circle">❯</a>
               </div>
+            
+                
+        
               
             </div>
           </div>
           
-        </div>      
+        </div>  
+          
         </div>
+        <!-- bonus  -->
+   
+       
     </div>
+  
+    
     </section>
   </header>
+  <main>
+    <!-- 2nd part 1-->
+    <section class="min-h-screen lg:min-h-screen md:min-h-screen bg-">
+   <div class=" p-9 flex gap-10 font-lato text-gray-900  justify-between"> 
+    <div class="lato ">
+      <h1 class=  "text-5xl">Deal of the day</h1>
+      <p class="text-base mt-5 ">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br>Latin literature from 45 BC, making it over 2000 years old.</p>
+    </div>
+    <div class="grid grid-flow-col gap-5 text-center auto-cols-max">
+      <div class="flex flex-col">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:15;"></span>
+        </span>
+        Days
+      </div> 
+      <div class="flex flex-col">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:10;"></span>
+        </span>
+        Hours
+      </div> 
+      <div class="flex flex-col">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:24;"></span>
+        </span>
+        Minutes
+      </div> 
+      <div class="flex flex-col">
+        <span class="countdown font-mono text-5xl">
+          <span style="--value:37;"></span>
+        </span>
+        Seconds
+      </div>
+    </div>
+   </div>
+     
+    </section>
+    <!-- 2nd part 0 -->
+  </main>
   
 </body>
 </html>
